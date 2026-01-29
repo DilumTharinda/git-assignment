@@ -1,4 +1,8 @@
 def add_numbers(a, b):
     return a + b
 
-print("Addition Result:", add_numbers(5, 3))
+def multiply_numbers(a, b):
+    return a * b
+
+print("Addition:", add_numbers(5, 3))
+print("Multiplication:", multiply_numbers(5, 3))
